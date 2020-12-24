@@ -1,1 +1,8 @@
-
+number1=input("Please enter a value: ")
+number2=input("Please enter a value: ")
+number3=input("Please enter a value: ")
+number4=input("Please enter a value: ")
+number5=input("Please enter a value: ")
+print(f"1th value:{number1} 2nd value:{number2} 3rd value:{number3} 4th value:{number4} 5th value:{number5}")
+print("1th value type:{} 2nd value type:{} 3rd value type:{} 4th value type:{} 5th value type:{}".format(type(number1),type(number2),type(number3),type(number4),type(number5)))
+#input değeri str olarak kaydeder
