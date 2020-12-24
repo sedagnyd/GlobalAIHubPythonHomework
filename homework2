@@ -1,1 +1,12 @@
+firstname =input("enter your first name:")
+lastname =input("enter your last name:")
+age =int(input("enter your age:"))
+dateofbirth = int(input("enter your date of birth (just year):"))
+liste=[(firstname),(lastname),(age),(dateofbirth)]
+for i in liste :
+  print(i)
 
+if age<18 :
+   print("You can't go out because it's too dangerous")
+elif age>18 :
+   print("You can go out to the street")
